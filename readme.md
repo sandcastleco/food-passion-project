@@ -4,26 +4,23 @@ A custom theme for [Food Passion Project](http://foodpassionproject.com). This t
 
 ## Getting started
 
-If you're using [MAMP](https://www.mamp.info):
+If you don't have a local Wordpress installation set up, follow the instructions in the [Sandcastle Wordpress Starter](http://github.com/sandcastleco/sandcastle-wordpress-starter) readme to do so and install this theme.
 
-1. Make sure [MAMP](https://www.mamp.info) is installed.
-2. Make sure [Node and npm](https://nodejs.org) are installed.
+If you already have a Wordpress installation set up:
 
-Then:
-
-1. Create a directory for the project.
-2. Download Wordpress from the [Wordpress website](https://wordpress.org/download/) and place the Wordpress files in the root of the directory.
-3. Clone this repository into the `wp-content/themes` directory.
-4. Configure [MAMP](https://www.mamp.info) to point to the project directory.
-5. Start the MAMP servers.
-6. Create a database using phpMyAdmin when the MAMP start page loads.
-7. Go to the site's local address and complete the Wordpress installation.
-8. Navigate to the project directory.
-9. Run `npm watch` to build the stylesheet with [SASS](http://sass-lang.com).
+1. Clone this repository into the `/wp-content/themes` directory.
+2. Navigate into the directory and run `npm install`.
+3. Run `npm start` if you're using [WP-CLI](https://wp-cli.org) or run `npm run watch` and run the server through [MAMP](https://www.mamp.info) or your preferred method.
 
 ## Deploying
 
-When you're ready to get Wordpress running on a server for staging or production, here are some steps you can use to get started. There are many ways to deploy a Wordpress site, but this is a common workflow:
+Development:
+
+1. Log into the server with SSH: `ssh sandcastle@107.170.255.158`
+2. Navigate to the project's theme directory in `/var/www`
+3. Pull the new commits: `git pull origin master`
+
+Production:
 
 1. Coming soon...
 
