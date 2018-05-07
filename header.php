@@ -8,7 +8,7 @@
 
     <?php wp_head(); ?>
   </head>
-  <body>
+  <body class="brandon pa3">
 
     <p><a href="/"><?php bloginfo('name'); ?></a></p>
     <?php get_template_part('includes/navbar'); ?>
