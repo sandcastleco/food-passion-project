@@ -9,3 +9,6 @@
     <?php wp_head(); ?>
   </head>
   <body>
+
+    <p><a href="/"><?php bloginfo('name'); ?></a></p>
+    <?php get_template_part('includes/navbar'); ?>
