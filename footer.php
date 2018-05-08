@@ -1,4 +1,4 @@
-<footer>
+<footer class="pa4">
   <p>&copy; Food Passion Project, LLC <?php echo date("Y"); ?></p>
 </footer>
 

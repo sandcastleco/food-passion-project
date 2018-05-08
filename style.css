@@ -6,6 +6,9 @@ Author:             Sandcastle
 Author URI:         http://sandcastle.co
 Text Domain:        sandcastle
 */
+html {
+  font-size: 18px; }
+
 .brandon {
   font-family: "brandon-grotesque", sans-serif; }
 
