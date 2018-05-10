@@ -8,7 +8,7 @@
       'container_id' => FALSE,
       'menu_class' => 'dib list pl0 mv0',
       'depth' => 1,
-      'walker' => new Nav_Walker(array('dib', 'dib pa2 ink link ttu'))
+      'walker' => new Nav_Walker(array('dib', 'dib pa2 ink link ttu f5'))
       )
     );
   ?>

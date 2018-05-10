@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
-<section class="bg-near-white pa4">
-  <div class="mw7">
-    <h1 class="f1">Explore your food passion project</h1>
-    <p class="f2">Repair your relationship with food by cultivating knowledge and pleasure at the table and in life</p>
+<section class="ph3">
+  <div class="mw7 center tc">
+    <h1 class="dib mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr bb pb4"><span class="outline-compote">Explore<br>your</span><br>food<br>passion<br>project</h1>
+    <p class="f3 measure-narrow center">Repair your relationship with food by cultivating knowledge and pleasure at the table and in life</p>
   </div>
 </section>
 

@@ -23,3 +23,14 @@ html {
 
 .bg-compote {
   background-color: #681922; }
+
+.ink {
+  color: #171619; }
+
+.outline-compote {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #681922; }
+
+.f-subheadline-l {
+  font-size: 4rem; }
