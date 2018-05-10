@@ -13,7 +13,7 @@ function theme_styles() {
   $version = $theme->get('Version');
 
   if ($tachyons) {
-    wp_enqueue_style( 'tachyons', 'https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css');
+    wp_enqueue_style( 'tachyons', 'https://unpkg.com/tachyons@4.9.1/css/tachyons.min.css');
   }
 
   if ($font_url) {
