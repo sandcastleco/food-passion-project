@@ -1,27 +1,19 @@
 <nav class="pa3 tc" role="navigation">
   <a class="dib pa3" href="/"><img class="dib w3 v-mid" alt="<?php bloginfo('name'); ?>" src="<?php get_image_uri('food-passion-project-logo.svg'); ?>"></a>
+
   <?php
-    wp_nav_menu( array(
-      'menu' => 'main-menu',
-      'theme_location' => 'main-menu',
-      'container' => FALSE,
-      'container_id' => FALSE,
-      'menu_class' => 'dib list pl0 mv0',
-      'depth' => 1,
-      'walker' => new Nav_Walker(array('dib', 'dib pa2 pa3-l ink link ttu f5'))
-      )
-    );
+    create_menu('main-menu', 2, 'dib list pl0 mv0', array(
+      'item_class' => 'dib relative',
+      'link_class' => 'dib pa2 pa3-l ink link ttu f5',
+      'submenu_class' => 'absolute-l list pl0 w-100 ph3',
+      'subitem_class' => 'pa2 bg-compote mb2',
+      'sublink_class' => 'white link ttu f6'
+    ));
+
+    create_menu('feature-menu', 1, 'dib list pl0 mv0', array(
+      'item_class' => 'dib',
+      'link_class' => 'dib pa2 pa3-l compote link ttu f5'
+    ));
   ?>
-  <?php
-    wp_nav_menu( array(
-      'menu' => 'feature-menu',
-      'theme_location' => 'feature-menu',
-      'container' => FALSE,
-      'container_id' => FALSE,
-      'menu_class' => 'dib list pl0 mv0',
-      'depth' => 1,
-      'walker' => new Nav_Walker(array('dib', 'dib pa2 pa3-l compote link ttu f5'))
-      )
-    );
-  ?>
+
 </nav>
