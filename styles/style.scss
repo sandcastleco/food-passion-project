@@ -28,6 +28,8 @@ html {
   -webkit-text-stroke-color: $compote;
 }
 
-.f-subheadline-l {
-  font-size: 4rem;
+@media(min-width: 60em) {
+  .f-subheadline-l {
+    font-size: 4rem;
+  }
 }
