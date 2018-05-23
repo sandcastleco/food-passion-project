@@ -35,6 +35,11 @@ html {
   color: #91164B;
   outline: 0; }
 
+.hover-arugula:hover,
+.hover-arugula:focus {
+  color: #9CB562;
+  outline: 0; }
+
 .ink {
   color: #171619; }
 

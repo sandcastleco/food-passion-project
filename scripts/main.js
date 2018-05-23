@@ -5,7 +5,14 @@ jQuery(document).ready(function($) {
   $submenu.hide();
   $dropdownToggle.click(function(e) {
     e.preventDefault();
-    $(this).parent('li').find('.submenu').toggle();
+    var $el = $(this);
+    $el.toggleClass('open');
+    if ($el.hasClass('open')) {
+      $el.focus();
+    } else {
+      $el.blur();
+    }
+    $el.parent('li').find('.submenu').toggle();
   });
 
   // var $navbarNav = $('.navbar-nav');
