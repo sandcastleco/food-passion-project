@@ -3,13 +3,15 @@
   <div class="mw8 center cf">
 
     <div class="fl-ns w-third-ns ph3-ns">
-      <h2>Recent blog posts</h2>
+      <h2 class="bg-ink white pa2 f4 ttu fw1">Blog</h2>
       <?php
        $posts = get_posts("numberposts=1");
        if( $posts ) :
        foreach( $posts as $post ) : setup_postdata( $post );
       ?>
-      <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+      <div class="bg-white-80 pa3 ink br bw2">
+        <h3 class="mv0"><a class="link ink" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+      </div>
 
       <?php endforeach; endif; ?>
     </div>
