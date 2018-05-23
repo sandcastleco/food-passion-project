@@ -2,7 +2,7 @@
 
 <section class="ph3 pt6 pb5 cover" style="background-image: url(<?php get_image_uri('background-1.jpg'); ?>);">
   <div class="mw7 center tc">
-    <h1 class="dib mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr bb pb4"><span class="outline-compote">Explore<br>your</span><br>food<br>passion<br>project</h1>
+    <h1 class="dib mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr bb pb4"><span class="outline-compote">Explore <br>your </span><br>food <br>passion <br>project </h1>
     <p class="f3 measure-narrow center">Repair your relationship with food by cultivating knowledge and pleasure at the table and in life</p>
   </div>
 </section>
