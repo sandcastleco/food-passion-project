@@ -16,13 +16,19 @@ html {
   color: #171619; }
 
 .compote {
-  color: #681922; }
+  color: #91164B; }
+
+.arugula {
+  color: #9CB562; }
 
 .bg-ink {
   background-color: #171619; }
 
 .bg-compote {
-  background-color: #681922; }
+  background-color: #91164B; }
+
+.bg-arugula {
+  background-color: #9CB562; }
 
 .ink {
   color: #171619; }
@@ -30,7 +36,7 @@ html {
 .outline-compote {
   color: transparent;
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #681922; }
+  -webkit-text-stroke-color: #91164B; }
 
 @media (min-width: 60em) {
   .f-subheadline-l {

@@ -4,9 +4,8 @@ jQuery(document).ready(function($) {
 
   $submenu.hide();
   $dropdownToggle.click(function(e) {
-    e.preventDefault();
     $(this).find('.submenu').toggle();
-  })
+  });
 
   // var $navbarNav = $('.navbar-nav');
   // var $navbarToggle = $('.navbar-toggle');

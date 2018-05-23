@@ -8,7 +8,8 @@ Text Domain:        sandcastle
 */
 
 $ink: #171619;
-$compote: #681922;
+$compote: #91164B;
+$arugula: #9CB562;
 
 html {
   font-size: 18px;
@@ -18,8 +19,10 @@ html {
 
 .ink { color: $ink; }
 .compote { color: $compote; }
+.arugula { color: $arugula; }
 .bg-ink { background-color: $ink; }
 .bg-compote { background-color: $compote; }
+.bg-arugula { background-color: $arugula; }
 
 .ink { color: $ink; }
 .outline-compote {

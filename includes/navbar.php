@@ -9,13 +9,13 @@
         'item_class' => 'dib-l relative',
         'link_class' => 'dib pa2 pa3-l ink link ttu f5',
         'submenu_class' => 'submenu absolute-l list pl0 w-100 ph3',
-        'subitem_class' => 'pa2 bg-compote mb2',
-        'sublink_class' => 'white link ttu f6'
+        'subitem_class' => 'mb2',
+        'sublink_class' => 'db pv1 ph2 bg-arugula white link ttu f6 br bw2'
       ));
 
       create_menu('feature-menu', 1, 'dib list pl0 mv0', array(
         'item_class' => 'dib',
-        'link_class' => 'dib pv2 ph3 bg-white compote link ttu f5 b'
+        'link_class' => 'dib pv2 ph3 bg-white compote link ttu f5 b br bw2'
       ));
     ?>
   </div>
