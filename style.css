@@ -6,6 +6,14 @@ Author:             Sandcastle
 Author URI:         http://sandcastle.co
 Text Domain:        sandcastle
 */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+
 html {
   font-size: 18px; }
 
@@ -29,6 +37,15 @@ html {
 
 .bg-arugula {
   background-color: #9CB562; }
+
+.b--ink {
+  border-color: #171619; }
+
+.b--compote {
+  border-color: #91164B; }
+
+.b--arugula {
+  border-color: #9CB562; }
 
 .hover-compote:hover,
 .hover-compote:focus {

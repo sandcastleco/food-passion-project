@@ -24,16 +24,16 @@
       <p>Looking to repair your relationship with food? Get Tiffany’s musings delivered right to your inbox, with a little food knowledge and a healthy dose of food pleasure, grace, and humor. As a thank you, you’ll get the first chapter of Tiffany’s book emailed to you.</p>
       <form>
         <div>
-          <label for="name">Name</label>
-          <input name="name" type="text" placeholder="Your name">
+          <label class="sr-only" for="name">Name</label>
+          <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="name" type="text" placeholder="Your name">
         </div>
 
         <div>
-          <label for="email">Email</label>
-          <input name="email" type="email" placeholder="Your email">
+          <label class="sr-only" for="email">Email</label>
+          <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="email" type="email" placeholder="Your email">
         </div>
 
-        <button>Submit</button>
+        <button class="brandon pv1 ph2 bg-white bt-0 bb-0 bl-0 br bw2 ink b--ink ttu b">Submit</button>
       </form>
     </div>
 

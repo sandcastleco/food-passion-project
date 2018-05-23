@@ -17,16 +17,16 @@
     <h3 class="lh-title">Schedule your free 30-minute nutritional consultation with Tiffany.</h3>
     <form>
       <div>
-        <label for="name">Name</label>
-        <input name="name" type="text" placeholder="Your name">
+        <label class="sr-only" for="name">Name</label>
+        <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="name" type="text" placeholder="Your name">
       </div>
 
       <div>
-        <label for="email">Email</label>
-        <input name="email" type="email" placeholder="Your email">
+        <label class="sr-only" for="email">Email</label>
+        <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="email" type="email" placeholder="Your email">
       </div>
 
-      <button>Submit</button>
+      <button class="brandon pv1 ph2 bg-white bt-0 bb-0 bl-0 br bw2 ink b--ink ttu b">Submit</button>
     </form>
   </div>
 </section>

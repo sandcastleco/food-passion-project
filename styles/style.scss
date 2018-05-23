@@ -11,6 +11,14 @@ $ink: #171619;
 $compote: #91164B;
 $arugula: #9CB562;
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
 html {
   font-size: 18px;
 }
@@ -23,6 +31,9 @@ html {
 .bg-ink { background-color: $ink; }
 .bg-compote { background-color: $compote; }
 .bg-arugula { background-color: $arugula; }
+.b--ink { border-color: $ink; }
+.b--compote { border-color: $compote; }
+.b--arugula { border-color: $arugula; }
 
 .hover-compote:hover,
 .hover-compote:focus { color: $compote; outline: 0; }
