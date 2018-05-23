@@ -45,9 +45,9 @@ class Nav_Walker extends Walker_Nav_Menu {
       $link_class = $this->el_classes['sublink_class'];
     }
     $output .= sprintf(
-      '<li class="%s %s"><a class="%s" href="%s">%s</a>',
-      implode(' ', $item->classes),
+      '<li class="%s"><a class="%s %s" href="%s">%s</a>',
       $item_class,
+      implode(' ', $item->classes),
       $link_class,
       $item->url,
       $item->title

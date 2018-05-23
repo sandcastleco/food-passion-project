@@ -7,7 +7,7 @@
     <?php
       create_menu('main-menu', 2, 'dib list pl0 mv0', array(
         'item_class' => 'dib-l relative',
-        'link_class' => 'dib pa2 pa3-l ink link ttu f5',
+        'link_class' => 'dib pa2 pa3-l ink hover-compote link ttu f5',
         'submenu_class' => 'submenu absolute-l list pl0 w-100 ph3',
         'subitem_class' => 'mb2',
         'sublink_class' => 'db pv1 ph2 bg-arugula white link ttu f6 br bw2'

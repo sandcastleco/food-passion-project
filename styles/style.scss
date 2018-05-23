@@ -24,6 +24,9 @@ html {
 .bg-compote { background-color: $compote; }
 .bg-arugula { background-color: $arugula; }
 
+.hover-compote:hover,
+.hover-compote:focus { color: $compote; outline: 0; }
+
 .ink { color: $ink; }
 .outline-compote {
   color: transparent;

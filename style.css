@@ -30,6 +30,11 @@ html {
 .bg-arugula {
   background-color: #9CB562; }
 
+.hover-compote:hover,
+.hover-compote:focus {
+  color: #91164B;
+  outline: 0; }
+
 .ink {
   color: #171619; }
 
