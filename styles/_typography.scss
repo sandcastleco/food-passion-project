@@ -1,0 +1,17 @@
+/*
+
+   TYPOGRAPHY
+
+   Resets for all basic typography elements for fonts, sizes, line height ratios, etc.
+
+*/
+
+html {
+  font-size: 18px;
+}
+
+@media(min-width: 60em) {
+  .f-subheadline-l {
+    font-size: 4rem;
+  }
+}

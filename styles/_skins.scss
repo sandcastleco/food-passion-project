@@ -1,0 +1,19 @@
+/*
+
+   SKINS
+
+   Classes for setting foreground and background colors on elements.
+
+*/
+
+/* Text colors */
+
+.ink { color: $ink; }
+.compote { color: $compote; }
+.arugula { color: $arugula; }
+
+/* Background colors */
+
+.bg-ink { background-color: $ink; }
+.bg-compote { background-color: $compote; }
+.bg-arugula { background-color: $arugula; }

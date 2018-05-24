@@ -6,20 +6,61 @@ Author:             Sandcastle
 Author URI:         http://sandcastle.co
 Text Domain:        sandcastle
 */
+/*
+
+  HELPERS
+
+  Small utility classes.
+
+*/
+/* Make element only visible to screen readers */
 .sr-only {
   position: absolute;
-  left: -10000px;
-  top: auto;
   width: 1px;
   height: 1px;
-  overflow: hidden; }
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
 
-html {
-  font-size: 18px; }
+/*
 
+   COLORS
+
+   Color variables for use in other Sass files.
+
+*/
+/*
+
+   FONT FAMILIES
+
+*/
 .brandon {
   font-family: "brandon-grotesque", sans-serif; }
 
+/*
+
+   TYPOGRAPHY
+
+   Resets for all basic typography elements for fonts, sizes, line height ratios, etc.
+
+*/
+html {
+  font-size: 18px; }
+
+@media (min-width: 60em) {
+  .f-subheadline-l {
+    font-size: 4rem; } }
+
+/*
+
+   SKINS
+
+   Classes for setting foreground and background colors on elements.
+
+*/
+/* Text colors */
 .ink {
   color: #171619; }
 
@@ -29,6 +70,7 @@ html {
 .arugula {
   color: #9CB562; }
 
+/* Background colors */
 .bg-ink {
   background-color: #171619; }
 
@@ -38,6 +80,11 @@ html {
 .bg-arugula {
   background-color: #9CB562; }
 
+/*
+
+   BORDER COLORS
+
+*/
 .b--ink {
   border-color: #171619; }
 
@@ -47,24 +94,12 @@ html {
 .b--arugula {
   border-color: #9CB562; }
 
-.hover-compote:hover,
-.hover-compote:focus {
-  color: #91164B;
+/*
+
+  HOVER EFFECTS
+
+*/
+.hover-underline:hover,
+.hover-underline:focus {
+  border-bottom: 2px solid #171619;
   outline: 0; }
-
-.hover-arugula:hover,
-.hover-arugula:focus {
-  color: #9CB562;
-  outline: 0; }
-
-.ink {
-  color: #171619; }
-
-.outline-compote {
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #91164B; }
-
-@media (min-width: 60em) {
-  .f-subheadline-l {
-    font-size: 4rem; } }
