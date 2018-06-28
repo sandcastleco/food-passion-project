@@ -17,3 +17,7 @@
 .bg-ink { background-color: $ink; }
 .bg-compote { background-color: $compote; }
 .bg-arugula { background-color: $arugula; }
+
+@media(min-width: 60em) {
+  .bg-transparent-l { background-color: transparent; }
+}

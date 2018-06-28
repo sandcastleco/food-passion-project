@@ -9,4 +9,4 @@
     <?php wp_head(); ?>
   </head>
   <body class="brandon lh-copy">
-    <?php get_template_part('includes/navbar'); ?>
+    <?php get_template_part('includes/header'); ?>

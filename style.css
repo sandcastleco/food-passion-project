@@ -80,6 +80,10 @@ html {
 .bg-arugula {
   background-color: #9CB562; }
 
+@media (min-width: 60em) {
+  .bg-transparent-l {
+    background-color: transparent; } }
+
 /*
 
    BORDER COLORS
@@ -103,3 +107,28 @@ html {
 .hover-underline:focus {
   border-bottom: 2px solid #171619;
   outline: 0; }
+
+/*
+
+  TEXT EFFECTS
+
+*/
+.outline-compote {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #91164B; }
+
+.outline-white {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFFFF; }
+
+/*
+
+   HEADERS
+
+   Template specific header styles.
+
+*/
+.header-inverse {
+  background-color: #FFFFFF; }
