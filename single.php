@@ -7,7 +7,7 @@
   <section class="ph3 pv5 cover" style="background-image: url(<?php get_image_uri('background-2.jpg'); ?>);">
 <?php endif; ?>
 
-  <div class="jumbotron mv5 mw6 center tc">
+  <div class="jumbotron mt6 mb5 mw6 center tc">
     <h1 class="jumbotron-title dib mt5 mv0-ns pv3 ph4 mb3 f1 compote ttu lh-title fw9 bg-white-80"><?php the_title(); ?></h1>
   </div>
 </section>
