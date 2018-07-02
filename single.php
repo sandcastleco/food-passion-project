@@ -20,7 +20,7 @@
           <?php the_content(); ?>
         </div>
         <hr class="b--compote mb5 w-50">
-        <div>
+        <div class="cf">
           <img alt="<?php echo get_the_author_meta('display_name'); ?>" class="fr br-pill ml3 mw4" src="<?php echo get_avatar_url(get_the_author_meta('ID'), array('size'=>256)); ?>">
           <p><?php echo get_the_author_meta('description'); ?></p>
         </div>
