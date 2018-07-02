@@ -17,7 +17,7 @@
   <div class="pa4 mw8 center cf bg-white-80">
     <div class="mw6 center">
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-        <div class="mb5 mt3 pa3 bg-white br b--compote bw2">
+        <div class="mb5 mt3">
           <h2 class="mt0"><a class="link compote" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
           <?php if (has_post_thumbnail(get_the_id())) : ?>
             <a href="<?php the_permalink() ?>"><?php the_post_thumbnail('full'); ?></a>
