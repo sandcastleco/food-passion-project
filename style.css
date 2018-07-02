@@ -80,6 +80,17 @@ html {
 .bg-arugula {
   background-color: #9CB562; }
 
+/* Fills */
+/* Text colors */
+.fill-ink {
+  fill: #171619; }
+
+.fill-compote {
+  fill: #91164B; }
+
+.fill-arugula {
+  fill: #9CB562; }
+
 @media (min-width: 60em) {
   .bg-transparent-l {
     background-color: transparent; } }
@@ -130,5 +141,17 @@ html {
    Template specific header styles.
 
 */
-.header-inverse {
-  background-color: #FFFFFF; }
+@media (min-width: 60em) {
+  .page-inverse .main-menu a {
+    color: #FFFFFF; } }
+
+.page-inverse .logo {
+  fill: #FFFFFF; }
+
+.page-inverse .jumbotron .jumbotron-title {
+  color: #FFFFFF; }
+
+.page-inverse .jumbotron .jumbotron-highlight {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FFFFFF; }

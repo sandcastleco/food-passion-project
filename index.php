@@ -7,8 +7,8 @@
   <section class="ph3 pv5 cover" style="background-image: url(<?php get_image_uri('background-2.jpg'); ?>);">
 <?php endif; ?>
 
-  <div class="mw7 center tc">
-    <h1 class="dib mt5 pt4 pt0-ns mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr">Food <br>passion <br>project <br><span class="white">blog</span></h1>
+  <div class="jumbotron mw7 center tc">
+    <h1 class="jumbotron-title dib mt5 pt4 pt0-ns mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr">Food <br>passion <br>project <br><span class="jumbotron-highlight white">blog</span></h1>
   </div>
 </section>
 

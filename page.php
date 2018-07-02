@@ -11,8 +11,8 @@ if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<section class="ph3 pv5 cover" style="background-image: url(<?php get_image_uri('background-2.jpg'); ?>);">
 	<?php endif; ?>
 
-		<div class="mw7 center tc">
-			<h1 class="dib mt5 mb3 pt4 pt0-ns f1 f-subheadline-l compote ttu lh-solid fw9 tr"><span class="white"><?php the_title(); ?> </span><br>food <br>passion <br>project </h1>
+		<div class="jumbotron mw7 center tc">
+			<h1 class="jumbotron-title dib mt5 mb3 pt4 pt0-ns f1 f-subheadline-l compote ttu lh-solid fw9 tr"><span class="jumbotron-highlight white"><?php the_title(); ?> </span><br>food <br>passion <br>project </h1>
 		</div>
 	</section>
 

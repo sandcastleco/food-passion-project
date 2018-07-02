@@ -8,5 +8,5 @@
 
     <?php wp_head(); ?>
   </head>
-  <body class="brandon lh-copy">
+  <body class="page-<?php the_field('page_theme'); ?> brandon lh-copy">
     <?php get_template_part('includes/header'); ?>

@@ -6,6 +6,20 @@
 
 */
 
-.header-inverse {
-  background-color: $white;
+@media(min-width: 60em) {
+  .page-inverse .main-menu a {
+    color: $white;
+  }
+}
+
+.page-inverse .logo {
+  fill: $white;
+}
+.page-inverse .jumbotron .jumbotron-title {
+  color: $white;
+}
+.page-inverse .jumbotron .jumbotron-highlight {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $white;
 }
