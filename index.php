@@ -29,6 +29,10 @@
           <p><?php _e('Blog coming soon!'); ?></p>
         </article>
       <?php endif; ?>
+      <div class="tc mb3">
+		    <div class="dib"><?php previous_posts_link( 'Newer posts' ); ?></div>
+		    <div class="dib"><?php next_posts_link( 'Older posts' ); ?></div>
+		  </div>
     </div>
   </div>
 </section>
