@@ -30,7 +30,7 @@
             <input type="email" value="" name="EMAIL" class="pa3 mb3 w-100 ba bw1 brandon" id="mce-EMAIL" placeholder="Your email address" required>
             <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_73bc7a6beb15eb3f00dbc95dd_352d6842eb" tabindex="-1" value=""></div>
-            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="ph3 pv2 br3 bg-compote white f4 ttu tracked bn brandon b">
+            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="brandon pv2 ph3 bg-white bt-0 bb-0 bl-0 br bw2 ink b--ink ttu b">
           </div>
         </form>
       </div>
