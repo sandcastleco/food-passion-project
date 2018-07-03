@@ -5,23 +5,25 @@
     <div class="fl-ns w-third-ns ph3-ns">
       <h2 class="bg-ink white pa2 f4 ttu fw1">Blog</h2>
       <?php
-       $posts = get_posts("numberposts=1");
+       $posts = get_posts("numberposts=5");
        if( $posts ) :
        foreach( $posts as $post ) : setup_postdata( $post );
       ?>
-      <div class="bg-white-80 pa3 ink br bw2">
-        <h3 class="mv0"><a class="link ink" href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-      </div>
+      <a href="<?php the_permalink() ?>" class="db bg-white-80 pa3 ink br bw2 mb2 link ink">
+        <h3 class="mv0"><?php the_title(); ?></h3>
+      </a>
 
       <?php endforeach; endif; ?>
     </div>
 
     <div class="fl-ns w-third-ns ph3-ns">
-      <h2>Section about book / CTA to buy</h2>
+      <h2 class="compote">Buy the Food Passion Project Book!</h2>
+      <p>A Guide to Repairing your Relationship with Food at the American Table. Finally—a book that addresses the intersection of pleasure and knowledge in how we come to the table!</p>
+      <a class="db tc" href="http://book.foodpassionproject.com"><img src="<?php get_image_uri('book-button.png'); ?>" alt="Book cover"></a>
     </div>
 
     <div class="fl-ns w-third-ns ph3-ns">
-      <p>Looking to repair your relationship with food? Get Tiffany’s musings delivered right to your inbox, with a little food knowledge and a healthy dose of food pleasure, grace, and humor. As a thank you, you’ll get the first chapter of Tiffany’s book emailed to you.</p>
+      <p class="f4">Looking to repair your relationship with food? Get Tiffany’s musings delivered right to your inbox, with a little food knowledge and a healthy dose of food pleasure, grace, and humor. As a thank you, you’ll get the first chapter of Tiffany’s book emailed to you.</p>
       <form>
         <div>
           <label class="sr-only" for="name">Name</label>
