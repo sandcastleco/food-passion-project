@@ -1,3 +1,15 @@
+<?php
+  $theme = '';
+  if (is_home()) {
+    $theme = get_field('page_theme', get_option('page_for_posts'));
+  } else if (is_category()) {
+    $term = get_queried_object();
+    $theme = get_field('page_theme', $term);
+  } else {
+    $theme = get_field('page_theme');
+  }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -8,5 +20,5 @@
 
     <?php wp_head(); ?>
   </head>
-  <body class="page-<?php the_field('page_theme'); ?> brandon lh-copy">
+  <body class="page-<?php echo $theme; ?> brandon lh-copy">
     <?php get_template_part('includes/header'); ?>

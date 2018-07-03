@@ -1,15 +1,18 @@
 <?php get_header(); ?>
 
-<?php if (has_post_thumbnail( $post->ID ) ): ?>
-  <?php $image = wp_get_attachment_image_src(get_post_thumbnail_id(get_option('page_for_posts')),'full'); ?>
-  <section class="ph3 pv5 cover" style="background-image: url(<?php echo $image[0]; ?>);">
+<?php
+  $term = get_queried_object();
+  $image = get_field('featured_image', $term);
+?>
+<?php if ($image) : ?>
+  <section class="ph3 pv5 cover" style="background-image: url(<?php echo $image; ?>);">
 <?php else: ?>
   <section class="ph3 pv5 cover" style="background-image: url(<?php get_image_uri('background-2.jpg'); ?>);">
 <?php endif; ?>
 
   <div class="jumbotron mw7 center tc">
     <h1 class="jumbotron-title dib mt5 pt4 pt0-ns mb3 f1 f-subheadline-l compote ttu lh-solid fw9 tr">Food <br>passion <br>project <br><span class="jumbotron-highlight white"><?php single_cat_title(); ?></span></h1>
-    <div class="f3 measure-narrow center"><?php the_archive_description(); ?></div>
+    <div class="jumbotron-title f3 measure-narrow center"><?php the_archive_description(); ?></div>
   </div>
 </section>
 
