@@ -24,19 +24,16 @@
 
     <div class="fl-ns w-third-ns ph3-ns">
       <p class="f4">Looking to repair your relationship with food? Get Tiffany’s musings delivered right to your inbox, with a little food knowledge and a healthy dose of food pleasure, grace, and humor. As a thank you, you’ll get the first chapter of Tiffany’s book emailed to you.</p>
-      <form>
-        <div>
-          <label class="sr-only" for="name">Name</label>
-          <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="name" type="text" placeholder="Your name">
-        </div>
-
-        <div>
-          <label class="sr-only" for="email">Email</label>
-          <input class="w-100 mb2 ph2 pt1 pb0 bn brandon" name="email" type="email" placeholder="Your email">
-        </div>
-
-        <button class="brandon pv1 ph2 bg-white bt-0 bb-0 bl-0 br bw2 ink b--ink ttu b">Submit</button>
-      </form>
+      <div id="mc_embed_signup">
+        <form action="https://foodpassionproject.us16.list-manage.com/subscribe/post?u=73bc7a6beb15eb3f00dbc95dd&amp;id=352d6842eb" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="pa3 mb3 w-100 ba bw1 brandon" id="mce-EMAIL" placeholder="Your email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_73bc7a6beb15eb3f00dbc95dd_352d6842eb" tabindex="-1" value=""></div>
+            <input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="ph3 pv2 br3 bg-compote white f4 ttu tracked bn brandon b">
+          </div>
+        </form>
+      </div>
     </div>
 
     <footer class="fl-ns w-100 mt4 pa4 tc">
